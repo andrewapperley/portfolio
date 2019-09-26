@@ -1,0 +1,19 @@
+
+RewriteEngine on
+
+# Use PHP 5.4
+# Use PHP54 as default
+AddHandler application/x-httpd-php54 .php
+<IfModule mod_suphp.c>
+    suPHP_ConfigPath /opt/php54/lib
+</IfModule>
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-SSL} !on
+RewriteCond %{HTTP_HOST} ^andrewapperley\.ca$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.andrewapperley\.ca$
+RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^(.*)$ "https\:\/\/andrewapperley\.ca\/$1" [R=301,L]
+

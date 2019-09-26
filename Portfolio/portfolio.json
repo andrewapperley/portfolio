@@ -1,0 +1,62 @@
+[
+    {
+        "item": {
+           "thumb": "Blips-thumb.jpg",
+           "title": "Blips",
+           "caption": "iOS Development &amp; Python Backend"
+        },
+        "modal": {
+            "title": "Blips",
+            "intro": "Creating memories, one Blip at a time",
+            "photo": "Blips.jpg",
+            "body": "<p>\r\n                                <strong>My Responsibilities<\/strong>:\r\n\r\n                                I worked on the server that powers the backend of Blips. I wrote it in Python 2 using the Flask framework and runs on a Tornado server. I was also responsible for the video player, connection list, and various other views including the website. Jeremy Fuellert and I worked on the design and UX work together.\r\n                                <br><br>\r\n\r\n                                <strong>App Description<\/strong>:\r\n\r\n                                Blips is a streamlined avenue for experiencing, creating, and sharing moments with the ones you care about most. Using short video clips, Blips will provide an easy and secure way to share great memories with your friends. You choose the person that is allowed to view the video and it is privately shared with them. Keeping track of the best videos that have been shared with you or that you have shared with others is as easy as tapping the star beside any video. You can even apply hip, trendy filters to your own videos before sharing them allowing you to personalize your memory even more!<br><br>\r\n\r\n                            So have some fun and create some blips today!<\/p>\r\n                            <p>You can download Blips <a href=\"https:\/\/itunes.apple.com\/us\/app\/blips\/id881682510?ls=1&amp;mt=8\">here<\/a>.<\/p>",
+            "date": "July 2013 - November 2014",
+            "categories": "iOS Development &amp; Python Development"
+        }
+    },
+    {
+        "item": {
+           "thumb": "Sky-thumb.jpg",
+           "title": "Sky",
+           "caption": "iOS Development"
+        },
+        "modal": {
+            "title": "Sky",
+            "intro": "Simple, elegant weather",
+            "photo": "Sky.jpg",
+            "body": "<p>\r\n                            <strong>My Responsibilities<\/strong>:\r\n\r\n                                I did the design work and the connecting the frontend with the weather services. My other tasks also included helping out with the overall UI\/UX.\r\n                                <br><br>\r\n\r\n                            <strong>App Description<\/strong>:\r\n\r\n                                Sky is a simplistic approach to viewing the weather. It gives you only the information that you need, without the extra clutter. Sky relies on gestures for navigation so when you first use Sky you will be amazed at how easy it is to use. Sky will present you with the temperature, high\/low, 7-day long term forecast, 5-day 3-hour updates, and precipitation of your current location while being updated as your travel. The information is available offline as well, in case you are travelling and lose signal.\r\n                            <\/p>\r\n                            <p>You can download Sky <a href=\"https:\/\/itunes.apple.com\/us\/app\/sky\/id648895907?ls=1&amp;mt=8\">here<\/a>.<\/p>",
+            "date": " April 2013 - May 2013",
+            "categories": "iOS Development"
+        }
+    },
+    {
+        "item": {
+           "thumb": "AFTimer-thumb.jpg",
+           "title": "AF-Timer",
+           "caption": "C Development (Pebble SDK)"
+        },
+        "modal": {
+            "title": "AF-Timer",
+            "intro": "A simple, yet important missing feature of Pebble",
+            "photo": "AFTimer.jpg",
+            "body": "<p>\r\n                                <strong>My Responsibilities<\/strong>:\r\n\r\n                                    I designed, developed and produced the app.\r\n                                    <br><br>\r\n\r\n                                <strong>App Description<\/strong>:\r\n                                    A simple app for a simple missing feature. This allows you to set a timer for up to an hour and have it vibrate the watch when it is done. I personally use it for when I'm brewing coffee.\r\n                                    <br><br>\r\n\r\n                                    <strong>Controls are<\/strong>:\r\n                                    <br><br>\r\n\r\n                                    Up\/Down(long or short): Change value<br>\r\n                                    Select(short): Change from minutes and seconds<br>\r\n                                    Select(long): Start timer<br>\r\n                                    Select(short while timer is active): Cancels timer<br>\r\n                            <\/p>\r\n                            <p>You can download AF-Timer <a href=\"https:\/\/apps.getpebble.com\/applications\/541bc018d81356ecb5000278\">here<\/a>.<\/p>",
+            "date": "September 2014",
+            "categories": "C Development (Pebble SDK)"
+        }
+    },
+    {
+        "item": {
+           "thumb": "AFRPGEngine-thumb.jpg",
+           "title": "AFRPG Game Engine",
+           "caption": "iOS Development"
+        },
+        "modal": {
+            "title": "AFRPG Game Engine",
+            "intro": "An experimental RPG engine for iOS",
+            "photo": "AFRPGEngine.jpg",
+            "body": "<p>\r\n\r\n                                <strong>My Responsibilities<\/strong>:\r\n\r\n                                    I mainly worked on art assets, map generation, helping out with game specific logic, Player vs World interaction, overall optimizations, and game menu UI.\r\n                                    <br><br>\r\n\r\n                                <strong>Project Description<\/strong>:\r\n\r\n                                    This is a game engine that is incomplete but a demonstration of hard work that a friend and I put forth into a project. Our initial intent was to create the engine to power the game we were designing. We wrote this in objective-c for the iOS platform. It was to be an RPG game that took elements from older 16bit games and merged them with newer concepts found in modern games such as Diablo. The engine ran at 50-60FPS on an ipod touch 3rd generation but had a lot of bugs.\r\n                                    <br><br>\r\n\r\n                                    <strong>The engine features<\/strong>:\r\n                                    <br><br>\r\n\r\n                                    Dynamically sized maps<br>\r\n                                    Multiple map layers for collision, items, warps<br>\r\n                                    Day\/Night cycle<br>\r\n                                    Enemy AI<br>\r\n                                    Quest handling<br>\r\n                                    Real-time combat engine<br>\r\n                                    Loot logic<br>\r\n                                    NPC AI that includes quests, conversations, and item handling\r\n                            <\/p>",
+            "date": "November 2012 - April 2013",
+            "categories": "iOS Development"
+        }
+    }
+]
